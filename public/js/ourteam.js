@@ -1,6 +1,6 @@
 // ourteam dynamic data show
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('http://localhost:3000/api/team')
+    fetch('https://www.itworldhub.com/api/team')
         .then(response => response.json())
         .then(data => {
             // Get the team container element

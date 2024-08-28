@@ -149,7 +149,7 @@
             // Fetch all testimonials
             const fetchTestimonials = async () => {
                 try {
-                    const response = await fetch('http://localhost:3000/api/testimonials', {
+                    const response = await fetch('https://www.itworldhub.com/api/testimonials', {
                         headers: {
                             'Authorization': `Bearer ${token}` // Add token to the header
                         }
@@ -179,7 +179,7 @@
                 const formData = new FormData(createForm); // Collect form data including file
 
                 try {
-                    const response = await fetch('http://localhost:3000/api/testimonials', {
+                    const response = await fetch('https://www.itworldhub.com/api/testimonials', {
                         method: 'POST',
                         headers: {
                             'Authorization': `Bearer ${token}` // Add token to the header
@@ -202,7 +202,7 @@
                 const id = document.getElementById('updateId').value;
 
                 try {
-                    const response = await fetch(`http://localhost:3000/api/testimonials/${id}`, {
+                    const response = await fetch(`https://www.itworldhub.com/api/testimonials/${id}`, {
                         method: 'PUT',
                         headers: {
                             'Authorization': `Bearer ${token}` // Add token to the header
@@ -225,7 +225,7 @@
                     const id = row.getAttribute('data-id');
 
                     try {
-                        const response = await fetch(`http://localhost:3000/api/testimonials/${id}`, {
+                        const response = await fetch(`https://www.itworldhub.com/api/testimonials/${id}`, {
                             method: 'DELETE',
                             headers: {
                                 'Authorization': `Bearer ${token}` // Add token to the header

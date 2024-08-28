@@ -19,7 +19,7 @@ document.getElementById('customContactForm').addEventListener('submit', function
     };
 
     // fetch function ka use karke API ko POST request bhejte hain
-    fetch('http://localhost:3000/api/queries', {
+    fetch('https://www.itworldhub.com/api/queries', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

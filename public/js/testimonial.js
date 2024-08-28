@@ -4,7 +4,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const slider = document.getElementById("testimonial-slider");
 
-    fetch("http://localhost:3000/api/testimonials")
+    fetch("https://www.itworldhub.com/api/testimonials")
         .then(response => response.json())
         .then(data => {
             console.log("Fetched testimonials:", data); // Debugging line

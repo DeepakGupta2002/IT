@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('http://localhost:3000/api/contacts')
+    fetch('https://www.itworldhub.com/api/contacts')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

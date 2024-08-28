@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiUrl = "http://localhost:3000/api/social-media-links";
+    const apiUrl = "https://www.itworldhub.com/api/social-media-links";
 
     fetch(apiUrl)
         .then(response => {

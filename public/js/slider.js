@@ -1,5 +1,5 @@
 // nav ber ki niche wali slide
-const apiUrl = 'http://localhost:3000/api/slides'; // Your API endpoint
+const apiUrl = 'https://www.itworldhub.com/api/slides'; // Your API endpoint
 let currentSlide = 0;
 
 async function fetchSlides() {
